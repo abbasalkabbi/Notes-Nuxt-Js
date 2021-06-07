@@ -1,0 +1,108 @@
+*,
+::before,
+::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/** style for moblie  */
+/**style of container */
+.container {
+  min-height: 100vh;
+  height: 100%;
+  width: 300px;
+  margin: auto;
+}
+/** style of index.vue */
+/** style of div  NoteCreate*/
+.NoteCreate {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/** style of form  */
+form {
+  height: 100%;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+::placeholder {
+  color: #000;
+  font-size: 20px;
+}
+#title {
+  width: 90%;
+  height: 40px;
+  margin: 20px;
+  outline: none;
+  border: none;
+  background: #dbdbdb;
+  border: 1px solid #000;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 9px 6px 10px 0px rgb(0 0 0 / 57%);
+  font-size: 16px;
+}
+#text {
+  width: 90%;
+  outline: none;
+  text-align: center;
+  border-radius: 40px;
+  background: #dbdbdb;
+  border: 1px solid #000;
+  box-shadow: 9px 6px 10px 0px rgb(0 0 0 / 57%);
+}
+#save {
+  border: none;
+  background: none;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: 1px solid #000;
+  background: #000;
+  color: #fff;
+  box-shadow: 9px 6px 10px 0px rgb(0 0 0 / 57%);
+}
+/** style template Nots.Vue */
+.container-notes {
+  min-height: 100vh;
+  height: 100%;
+  width: 300px;
+  margin: auto;
+}
+.allnots {
+  max-width: fit-content;
+  width: 300px;
+  border: 1px solid red;
+  margin-top: 20px;
+  margin-left: 10px;
+  min-width: 300px;
+  box-shadow: 9px 6px 10px 0px rgba(255, 0, 0, 0.288);
+}
+.allnots header {
+  width: 100%;
+  text-align: center;
+  background: #dbdbdb;
+  position: relative;
+}
+.allnots header img {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  width: 40px;
+}
+.allnots section {
+  width: 100%;
+  text-align: center;
+  background: #dbdbdb62;
+  overflow: hidden;
+}
+.allnots section p {
+  width: 100%;
+}
+/** END */

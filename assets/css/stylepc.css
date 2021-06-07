@@ -1,0 +1,93 @@
+/** style for pc and iped */
+@media screen and (min-width: 600px) {
+  /**style of container */
+  .container {
+    width: 600px;
+  }
+  /** style of div  NoteCreate*/
+  .NoteCreate {
+    width: 600px;
+  }
+  /** style of form  */
+  form {
+    width: 600px;
+  }
+  #title {
+    height: 80px;
+    margin: 30px;
+    border-radius: 40px;
+  }
+
+  #save {
+    border: none;
+    background: none;
+    padding: 10px 20px;
+    margin-top: 40px;
+    border: 1px solid #000;
+    cursor: pointer;
+    color: #000;
+    box-shadow: none;
+    transition: 1s all;
+  }
+  #save:hover {
+    box-shadow: 9px 6px 10px 0px rgb(0 0 0 / 57%);
+    background: #000;
+    color: #fff;
+  } /** style template Nots.Vue */
+  .container-notes {
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+  }
+  .allnots {
+    max-width: fit-content;
+    min-width: 300px;
+    border: 1px solid red;
+    margin-top: 20px;
+    margin-left: 10px;
+    float: left;
+  }
+
+  .allnots header img {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 40px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  .allnots header img:hover {
+    opacity: 0.4;
+  }
+
+  /** END */
+}
+@media screen and (min-width: 1000px) {
+  /**style of container */
+  .container {
+    width: 1000px;
+  }
+  /** style of div  NoteCreate*/
+  .NoteCreate {
+    width: 1000px;
+  }
+  /** style of form  */
+  form {
+    width: 1000px;
+  }
+
+  #save {
+    border: none;
+    background: none;
+    padding: 20px 80px;
+    margin-top: 40px;
+    border: 1px solid #000;
+    cursor: pointer;
+    color: #000;
+    box-shadow: none;
+    transition: 1s all;
+  }
+
+  /** END */
+}
